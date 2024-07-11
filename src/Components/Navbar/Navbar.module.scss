@@ -1,0 +1,28 @@
+nav {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  height: 100vh;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+
+    li {
+      list-style-type: none;
+      a {
+        text-decoration: none;
+        text-transform: capitalize;
+        color: white;
+        &:hover {
+          color: gold;
+        }
+      }
+    }
+  }
+}
